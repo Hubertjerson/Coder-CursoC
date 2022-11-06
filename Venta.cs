@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Desafio01
+{
+    public class Venta
+    {
+        public int id { get; set; }
+        public string Comentarios { get; set; }
+        public int idUsuario { get; set; }
+
+        public Venta (int id, string Comentarios, int idUsuario)
+        {
+            this.id = id;
+            this.Comentarios = Comentarios;
+            this.idUsuario = idUsuario;
+        }
+    }
+}
